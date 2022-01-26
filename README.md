@@ -35,7 +35,7 @@ We want to see how you structure your code and the solutions you use to each cha
 
 # External Api
 
- For converting text to audio (TTS) you must use https://www.voicerss.org/ api. Be aware that the documentation for using this API is provided in the link and that you should create an free account to receive an api key to use it. (Please, do not share your api key with us, create a env variable nammed TTS_KEY that will hold the key, we are going to use our individual key in tests).
+ For converting text to audio (TTS) you must use https://www.voicerss.org/ api. Be aware that the documentation for using this API is provided in the link and that you should create a free account to receive an api key to use it. (Please, do not share your api key with us, create a env variable nammed TTS_KEY that will hold the key, we are going to use our individual key in tests).
  
  # Routes
  
