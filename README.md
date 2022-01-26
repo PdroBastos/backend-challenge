@@ -27,7 +27,7 @@ First, we need you to know that you have a domain of Javascript and Nodejs. It's
 # Your Goal
 
  **TTS API**</br>
-Your goal is to build a simple API that has post object CRUD. The user should be able to Create an object that holds: title, sub-title and the text itself. And then should be able to read, update or delete this object. The user should also be able to get the text as audio. (The application must request to an external API to transform text in audio, store the audio file and if requested return the audio).
+Your goal is to build a simple API that will provide CRUD for a Post object. The user should be able to create an object that holds: title, sub-title and the text. And then should be able to read, update or delete this object. The user should also be able to get the text as audio. (The application must request to an external API to transform text in audio, store the audio file and if requested return the audio).
 
 The application must have a simple authentication system.
 
@@ -35,11 +35,11 @@ We want to see how you structure your code and the solutions you use to each cha
 
 # External Api
 
- For converting text to audio (TTS) you must use https://www.voicerss.org/ api. Be aware that the documentation for using this API is in the provided link and that you should create an free account to receive a api key to use it. ( You should not share your api key with us, create a env variable nammed TTS_KEY that will hold the key, we are going to use our individual key in test).
+ For converting text to audio (TTS) you must use https://www.voicerss.org/ api. Be aware that the documentation for using this API is in the provided in the link and that you should create an free account to receive an api key to use it. (Please, do not share your api key with us, create a env variable nammed TTS_KEY that will hold the key, we are going to use our individual key in tests).
  
  # Routes
  
- Your api should have at least the following Routes:
+ Your Api should have at least the following Routes:
  
   - POST /user/ -> Create user
   - GET /users/ -> Get all users (only for users that are admin)
