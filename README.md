@@ -78,7 +78,7 @@ We want to see how you structure your code and the solutions you use to each cha
  |--------------------------|
  ```
  ```
- |--------- AUDIOS ---------|
+ |--------- Audios ---------|
  | ID: UUIDV4               |
  | URL: STRING              |
  | POSTID: REFERENCE(UUIDV4)|
