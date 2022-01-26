@@ -4,7 +4,7 @@
 # Nodejs Challenge
 
   Hey, thanks for your interest in working with us. Before we continue your application we need to check if you can handle some skills.
-  We know that's boring and it sucks, but it allow us to create a team that really can collaborate. 
+  We know that's boring and it sucks, but it allows us to create a team that really can collaborate. 
   
   So if you are here, we need to check some of your skills ok? Let's do It!
 
@@ -12,14 +12,14 @@
 
 First, we need you to know that you have a domain of Javascript and Nodejs. It's important to remember that our entire culture is based on Clean Code, so, be aware that we will expect that your code is well written and well documented, ok?
   
-   You must use Nodejs 12+ for this challenge. You are not allowed to use Nextjs as framework. 
+   You must use Nodejs 12+ for this challenge. You are not allowed to use Nextjs as a framework. 
    
    - ** Database **
     You must use MongoDb or Postgres (Postgres is better) with some ORM.
     
    - ** Docker - Not Required **
-     It would be great if you use Docker and Docker Compose for running your application. 
-     Docker compose should contain the build of the application and the DB.
+     It would be great if you use Docker and Docker-compose for running your application. 
+     Docker-compose should contain the build of the application and the DB.
      
    - **Tests**
       You must implement some tests in your application. Those tests should run when the command ```npm test``` is prompted. We recommend you to use jest. (Be free to use whatever you like).
@@ -27,15 +27,15 @@ First, we need you to know that you have a domain of Javascript and Nodejs. It's
 # Your Goal
 
  **TTS API**</br>
-Your goal is to build a simple API that will provide CRUD for a Post object. The user should be able to create an object that holds: title, sub-title and the text. And then should be able to read, update or delete this object. The user should also be able to get the text as audio. (The application must request to an external API to transform text in audio, store the audio file and if requested return the audio).
+Your goal is to build a simple API that will provide CRUD for a Post object. The user should be able to create an object that holds: title, sub-title and text. And then should be able to read, update or delete this object. The user should also be able to get the text as audio. (The application must request an external API to transform text in audio, store the audio file, and if requested return the audio).
 
 The application must have a simple authentication system.
 
 We want to see how you structure your code and the solutions you use to each challenge you will face.
 
-# External Api
+# External API
 
- For converting text to audio (TTS) you must use https://www.voicerss.org/ api. Be aware that the documentation for using this API is provided in the link and that you should create a free account to receive an api key to use it. (Please, do not share your api key with us, create a env variable nammed TTS_KEY that will hold the key, we are going to use our individual key in tests).
+ For converting text to audio (TTS) you must use https://www.voicerss.org/ API. Be aware that the documentation for using this API is provided in the link and that you should create a free account to receive an API key to use it. (Please, do not share your API key with us, create an env variable named TTS_KEY that will hold the key, we are going to use our individual key in tests).
  
  # Routes
  
@@ -89,14 +89,14 @@ We want to see how you structure your code and the solutions you use to each cha
  
 # Web Interface
  
-  It's not required to build a front-end interface for the porpouses of this test. It will be well receive if you deliver some web interface tought.
+  It's not required to build a front-end interface for the purposes of this test. It will be well received if you deliver some web interface, though.
   
 # How to apply your code
   When your task is done please create a repo inside your Github account, this repo must be public. Send the repo URL via e-mail to tech@getpingback.com.
   
 # How your code will be reviewed.
  
-  If you are using Reactjs you application must build and run server. If you are using React Native your application must run MetroJs and work with Android or IOS Simulator (IOS is better).
+  The application should run with npm run server command or docker-compose up --build command. TTS_KEY shoud be an env file so we can use our key.
   
   The application code will be reviewed keeping the following criterias:
 
