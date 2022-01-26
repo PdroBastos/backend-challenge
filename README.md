@@ -64,7 +64,8 @@ We want to see how you structure your code and the solutions you use to each cha
  | ID: UUIDV4              |
  | NAME: STRING            |
  | EMAIL: STRING           |
- | PSW: STRING             |
+ | PSW: STRING             | 
+ | ISADMIN: BOOLEAN        |
  |-------------------------|
  ```
  ```
