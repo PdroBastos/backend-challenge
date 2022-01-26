@@ -41,19 +41,19 @@ We want to see how you structure your code and the solutions you use to each cha
  
  Your Api should have at least the following Routes:
  
-  - POST /user/ -> Create user
-  - GET /users/ -> Get all users (only for users that are admin)
-  - EDIT /user/:id -> Edit user, only the user itself use this route
+  - ```POST /user/``` -> Create user
+  - ```GET /users/``` -> Get all users (only for users that are admin)
+  - ```EDIT /user/:id.``` -> Edit user, only the user itself use this route
 
-  - POST /text -> Create a text object
-  - PUT /text/:id -> Edit a text object
-  - GET /text/:id -> Get text object
-  - GET /user/:id/texts -> Get all text objects from an given user
-  - DELETE /text/:id -> Delete text object
+  - ```POST /text/``` -> Create a text object
+  - ```PUT /text/:id/``` -> Edit a text object
+  - ```GET /text/:id/``` -> Get text object
+  - ```GET /user/:id/texts/``` -> Get all text objects from an given user
+  - ```DELETE /text/:id/``` -> Delete text object
 
-  - POST /text/:id/audio -> Request TTS
-  - GET /text/:id/audio -> Get the audio file if its already converted, if its not it must run POST method.
-  - PUT /text/:id/audio -> Force new TTS conversion
+  - ```POST /text/:id/audio/``` -> Request TTS
+  - ```GET /text/:id/audio/``` -> Get the audio file if its already converted, if its not it must run POST method.
+  - ```PUT /text/:id/audio/``` -> Force new TTS conversion
 
 # Entities
 
