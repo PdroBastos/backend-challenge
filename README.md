@@ -4,10 +4,8 @@
 # Nodejs Challenge
 
   Hey, thanks for your interest in working with us. Before we continue your application we need to check if you can handle some skills.
-  We know that's boring and it sucks, but it allows us to create a team that really can collaborate. 
+  We know that's boring and it sucks, but testing candidates allows us to create a team that really can collaborate. 
   
-  So if you are here, we need to check some of your skills ok? Let's do It!
-
 # What are we looking for?
 
 First, we need you to know that you have a domain of Javascript and Nodejs. It's important to remember that our entire culture is based on Clean Code, so, be aware that we will expect that your code is well written and well documented, ok?
