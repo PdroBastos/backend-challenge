@@ -43,7 +43,7 @@ We want to see how you structure your code and the solutions you use to each cha
  
   - ```POST /user/``` -> Create user
   - ```GET /users/``` -> Get all users (only for users that are admin)
-  - ```EDIT /user/:id.``` -> Edit user, only the user itself use this route
+  - ```EDIT /user/:id/``` -> Edit user, only the user itself use this route
 
   - ```POST /text/``` -> Create a text object
   - ```PUT /text/:id/``` -> Edit a text object
