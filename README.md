@@ -12,14 +12,14 @@ First, we need you to know that you have a domain of Javascript and Nodejs. It's
   
    You must use Nodejs 12+ for this challenge. You are not allowed to use Nextjs as a framework. 
    
-   - ** Database **
+   - **Database:**
     You must use MongoDb or Postgres (Postgres is better) with some ORM.
     
-   - ** Docker - Not Required **
+   - **Docker - Not Required:**
      It would be great if you use Docker and Docker-compose for running your application. 
      Docker-compose should contain the build of the application and the DB.
      
-   - **Tests**
+   - **Tests:**
       You must implement some tests in your application. Those tests should run when the command ```npm test``` is prompted. We recommend you to use jest. (Be free to use whatever you like).
       
 # Your Goal
